@@ -28,8 +28,8 @@ function displayWeather(data) {
       <p class="mb-1">Temperature: ${data.main.temp}°C</p>
       <p class="mb-1">Weather: ${data.weather[0].description}</p>
       <p class="mb-1">Humidity: ${data.main.humidity}%</p>
-      <p class="mb-1">Temp low: ${data.main.temp_min}%</p>
-      <p class="mb-1">temp high: ${data.main.temp_max}%</p>
+      <p class="mb-1">Temp low: ${data.main.temp_min}}°C</p>
+      <p class="mb-1">temp high: ${data.main.temp_max}°C</p>
   `;
 }
 
